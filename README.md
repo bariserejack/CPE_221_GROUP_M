@@ -8,23 +8,32 @@ This is a **Streamlit web application** that predicts the price of a laptop base
 
 ## 🚀 How to Run the App Locally
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 ```bash
 git clone https://github.com/your_username/laptop-price-prediction.git
 cd laptop-price-prediction
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
-### How to run it on your own machine
+ How to run it on your own machine
+
+laptop-price-prediction/
+├── app.py
+├── requirements.txt
+├── README.md
+├── models/
+│   ├── laptop_price_model.pkl
+│   └── preprocessor.pkl
+└── laptop_price.csv
 
 1. Install the requirements
 
    ```
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   streamlit run app.py
    ```
